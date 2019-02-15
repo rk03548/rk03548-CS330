@@ -13,7 +13,9 @@ module tb
 	);
 
 	initial
-  instruction = 32'h123ABCDF;
+	begin
+    instruction = {32'hFACADE,;
+    #300 instruction = 
 
 	initial
 	$monitor("Select = ", $time, "imm_data = %d", imm_data);
