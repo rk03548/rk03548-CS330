@@ -8,7 +8,7 @@ module tbALU_64_bit
     wire [63:0] Result;
     wire zero;
     
-    ALU_64_Bit
+    ALU_64_bit alu64
     (
       .a(a),
       .b(b),
