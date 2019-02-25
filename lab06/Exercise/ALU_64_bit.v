@@ -1,4 +1,4 @@
-module ALU_64_Bit
+module ALU_64_bit
   (
     input [63:0]a,
     input [63:0]b,
